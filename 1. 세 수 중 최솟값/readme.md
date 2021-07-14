@@ -10,4 +10,4 @@ let c = 5
 
 // OUTPUT //
 
-console.log(solution(6, 11, 5)) -> 5
+console.log(solution(a, b, c)) -> 5
