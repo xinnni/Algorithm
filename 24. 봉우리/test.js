@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (arr) => {
+function solution(arr) {
   let cnt = 0;
   let len = arr.length;
   let dx = [-1, 0, 1, 0]; // 행 12 시 -> 3 시 -> 6 시 -> 9 시 방향
@@ -27,4 +27,4 @@ const solution = (arr) => {
     }
     return cnt;
   }
-};
+}
