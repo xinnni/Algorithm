@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (test) => {
+function solution(test) {
   let answer = 0;
   let m = test.length; // 테스트 횟수
   let n = test[0].length; // 학생 수
@@ -24,4 +24,4 @@ const solution = (test) => {
     }
   }
   return answer;
-};
+}
