@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (m, product) => {
+function solution(m, product) {
   let answer = 0;
   let n = product.length;
   product.sort((a, b) => a[0] + a[1] - (b[0] + b[1]));
@@ -18,4 +18,4 @@ const solution = (m, product) => {
     answer = Math.max(answer, cnt);
   }
   return answer;
-};
+}
