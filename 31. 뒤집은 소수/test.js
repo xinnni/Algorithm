@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (arr) => {
+function solution(arr) {
   let firArr = arr.join().split("").reverse();
   let secArr = firArr.join("").split(",").reverse();
 
@@ -11,7 +11,7 @@ const solution = (arr) => {
     }
   }
   return result;
-};
+}
 
 const isPrime = (num) => {
   let sum = parseInt(Math.sqrt(num));
@@ -28,7 +28,7 @@ const isPrime = (num) => {
 
 /* develop(1) */
 
-const solution = (arr) => {
+function solution(arr) {
   let firArr = arr.join().split("").reverse();
   let secArr = firArr.join("").split(",").reverse();
 
@@ -39,7 +39,7 @@ const solution = (arr) => {
     }
   }
   return result;
-};
+}
 
 const isPrime = (num) => {
   let sum = parseInt(Math.sqrt(num));
