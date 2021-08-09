@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (arr) => {
+function solution(arr) {
   let answer,
     max = Number.MIN_SAFE_INTEGER;
   for (let el of arr) {
@@ -18,11 +18,11 @@ const solution = (arr) => {
     }
   }
   return answer;
-};
+}
 
 /* develop */
 
-const solution = (arr) => {
+function solution(arr) {
   let answer,
     max = Number.MIN_SAFE_INTEGER;
   for (let el of arr) {
@@ -38,4 +38,4 @@ const solution = (arr) => {
     }
   }
   return answer;
-};
+}
