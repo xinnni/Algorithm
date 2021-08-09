@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (arr) => {
+function solution(arr) {
   let max = Number.MIN_SAFE_INTEGER;
   let len = arr.length;
   let maxC = (maxR = 0);
@@ -17,4 +17,4 @@ const solution = (arr) => {
   }
   max = Math.max(max, firstDiagonal, secondDiagonal);
   return max;
-};
+}
