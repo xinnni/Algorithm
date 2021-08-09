@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (str) => {
+function solution(str) {
   let answer = "";
   let count = 1;
   for (let i = 0; i < str.length - 1; i++) {
@@ -15,4 +15,4 @@ const solution = (str) => {
     }
   }
   return answer;
-};
+}
