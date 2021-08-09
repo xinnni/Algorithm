@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (s, t) => {
+function solution(s, t) {
   let answer = [];
   let count = 1000;
 
@@ -24,4 +24,4 @@ const solution = (s, t) => {
     }
   }
   return answer;
-};
+}
