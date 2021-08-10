@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (n, k, card) => {
+function solution(n, k, card) {
   let answer;
   let tmp = new Set();
   for (let i = 0; i < n - 2; i++) {
@@ -13,4 +13,4 @@ const solution = (n, k, card) => {
   let arr = Array.from(tmp).sort((a, b) => b - a);
   answer = arr[k - 1];
   return answer;
-};
+}
