@@ -1,6 +1,6 @@
 /* solution */
 
-const solution = (arr1, arr2) => {
+function solution(arr1, arr2) {
   let answer = [];
   arr1.sort();
   arr2.sort();
@@ -15,4 +15,4 @@ const solution = (arr1, arr2) => {
     else p2++;
   }
   return answer;
-};
+}
