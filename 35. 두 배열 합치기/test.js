@@ -1,13 +1,13 @@
 /* solution */
 
-const solution = (arr1, arr2) => {
+function solution(arr1, arr2) {
   let answer = arr1.concat(arr2).sort((a, b) => a - b);
   return answer;
-};
+}
 
 /* develop */
 
-const solution = (arr) => {
+function solution(arr, arr2) {
   let answer = [];
   let n = arr1.length,
     m = arr2.length;
@@ -20,4 +20,4 @@ const solution = (arr) => {
   while (p1 < n) answer.push(arr1[p1++]);
   while (p2 < m) answer.push(arr2[p2++]);
   return answer;
-};
+}
