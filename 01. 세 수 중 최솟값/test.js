@@ -8,3 +8,5 @@ function solution(a, b, c) {
   if (c < answer) answer = c;
   return answer;
 }
+
+solution(a, b, c);
