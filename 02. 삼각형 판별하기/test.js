@@ -13,6 +13,8 @@ function solution(a, b, c) {
   return answer;
 }
 
+solution(a, b, c);
+
 /* develop */
 
 function solution(a, b, c) {
@@ -28,3 +30,5 @@ function solution(a, b, c) {
 
   return answer;
 }
+
+solution(a, b, c);
