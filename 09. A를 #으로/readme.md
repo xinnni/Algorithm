@@ -1,12 +1,12 @@
-// Getting Started //
+# Getting Started
 
 대문자로 이루어진 영어 단어가 입력되면 단어에 포함된 ‘A'를 모두 ’#‘으로 바꾸어 출력하는 로직을 구현하라.
 
-// INPUT //
+# INPUT
 
 let str = `BANANA`
 
-// OUTPUT //
+# OUTPUT
 
 console.log(solution(str)) -> B#N#N#
 
