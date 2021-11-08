@@ -1,13 +1,13 @@
-// Getting Started //
+# Getting Started
 
 한 개의 문자열을 입력 받고, 특정 문자를 입력 받아 해당 특정문자가 입력 받은 문자열에 몇 개 존재하는지 알아내는 로직을 구현하라.
 
-// INPUT //
+# INPUT
 
 let str = `COMPUTERPROGRAMMING`
 let t = `R`
 
-// OUTPUT //
+# OUTPUT
 
 console.log(solution(str, t)) -> 3
 
